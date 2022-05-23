@@ -1,3 +1,12 @@
+const removeFromArray = function(array, itemToRemove) {
+    let index = array.indexOf(itemToRemove)
+    array.splice(index, 1);
+    return array;
+};
+
+^^What I tried that passed the first test, but not the second.
+
+
 # Exercise 04 - removeFromArray
 
 Implement a function that takes an array and some other arguments then removes the other arguments from that array:
